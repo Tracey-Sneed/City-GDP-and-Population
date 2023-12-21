@@ -57,11 +57,10 @@ This was an exploratory project to familiarize myself with using Python, SQL, an
     -   Open the PowerBI file to view the dashboard.
 
 ## Additional Notes
-The schema of the database contains only two tables. Most for the Power BI file used views created in the database.
 
-The file paths in "gdp_estimate_data_cleaner" and "pop_estimate_data_cleaner" may need to be changed if you're attempting to run those two programs. The "Table.csv" contains the Metropolitan GDP data from the Bureau of Economic Analysis. The "cbsa-est2022(1).csv" file contains the population data from the U.S. Census Bureau. The "CBSA-EST2022.pdf" file contains notes and methodologies published by the U.S. Census Burea on "cbsa-est2022(1).csv" and similar datasets. 
+The file paths in "gdp_estimate_data_cleaner" and "pop_estimate_data_cleaner" may need to be changed if you're attempting to run those two programs. The "Table.csv" contains the Metropolitan GDP data from the Bureau of Economic Analysis. The "cbsa-est2022(1).csv" file contains the population data from the U.S. Census Bureau. The "CBSA-EST2022.pdf" file contains notes and methodologies published by the U.S. Census Bureau on "cbsa-est2022(1).csv" and similar datasets. 
 
-The files "gdp_estimate_data_cleaner.py" and "pop_estimate_data_cleaner.py" are the python programs written to generate the files "cleaned_gdp_data.csv" and "cleaned_population_data.csv". The files "schema.sql" and "city_gdp_pop.db" are the SQL schema and database that contains the structure and database used to generate the Power BI report. The file "City GDP and Population Dashbaord.pbix" is the Power BI dashboard created using the SQL database.
+The files "gdp_estimate_data_cleaner.py" and "pop_estimate_data_cleaner.py" are the python programs written to generate the files "cleaned_gdp_data.csv" and "cleaned_population_data.csv". The files "schema.sql" and "city_gdp_pop.db" are the SQL schema and database that contains the structure and database used to generate the Power BI report. Most of the Power BI dashboard uses views created in the database. The "City GDP and Population Dashboard.pbix" file is the Power BI dashboard created using the SQL database. A dashboard preview is available in the file "City GDP and Population Dashboard.pdf". The schema of the database contains only two tables. 
 
 Acknowledgements to The Power BI Guy and Alex the Analyst for informative Power BI and Pandas tutorials. 
 
