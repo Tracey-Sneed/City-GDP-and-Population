@@ -4,6 +4,8 @@
 
 This was an exploratory project to familiarize myself with using Python, SQL, and Power BI to clean data, transform data for querying, and present data gathered concisely. Data was collected from the U.S. Census Bureau and the Bureau of Economic Analysis. I cleaned the data using the Pandas library in Python, Pandas was used to generate new CSV files which were read into a SQLite database. I connected Power BI to the SQLite database to visualize the data.
 
+Video introduction: [https://www.youtube.com/watch?v=WDB9nqU9Pqo]
+
 ## Data Sources
 
 -   U.S. Census Bureau: [Metropolitan and Micropolitan Statistical Areas Totals: 2020-2022 (census.gov)](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html)
